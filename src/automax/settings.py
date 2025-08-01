@@ -62,6 +62,12 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
+# CSRF trusted origins for production
+CSRF_TRUSTED_ORIGINS = [
+    "https://autonexus-243186405987.europe-west1.run.app",
+]
+
+
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 
