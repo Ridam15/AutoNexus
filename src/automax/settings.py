@@ -31,7 +31,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(env('DEBUG'))
 
-ALLOWED_HOSTS = ['autonexus-igro.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
